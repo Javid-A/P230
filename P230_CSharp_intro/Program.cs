@@ -138,7 +138,6 @@
 //string[] student_names = { "Orxan", "Ulviyya", "Kamran"};
 
 
-
 //for (int i = 0; i < student_names.Length; i++)
 //{
 //    Console.WriteLine(student_names[i]);
@@ -224,3 +223,7 @@
 
 //Console.WriteLine("Result:\t" + result); 
 #endregion
+
+
+
+Console.WriteLine("intro");

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "P230_CSharp_intro/1.0.0": {
+        "runtime": {
+          "P230_CSharp_intro.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P230_CSharp_intro/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

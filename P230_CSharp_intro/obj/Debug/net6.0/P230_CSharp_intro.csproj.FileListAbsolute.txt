@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\obj\Debug\net6.0\P230_CSharp_intro.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\obj\Debug\net6.0\P230_CSharp_intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\obj\Debug\net6.0\P230_CSharp_intro.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\obj\Debug\net6.0\P230_CSharp_intro.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\obj\Debug\net6.0\P230_CSharp_intro.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\bin\Debug\net6.0\P230_CSharp_intro.exe
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\bin\Debug\net6.0\P230_CSharp_intro.deps.json
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\bin\Debug\net6.0\P230_CSharp_intro.runtimeconfig.json
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\bin\Debug\net6.0\P230_CSharp_intro.dll
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\bin\Debug\net6.0\P230_CSharp_intro.pdb
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\obj\Debug\net6.0\P230_CSharp_intro.dll
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\obj\Debug\net6.0\refint\P230_CSharp_intro.dll
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\obj\Debug\net6.0\P230_CSharp_intro.pdb
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\obj\Debug\net6.0\P230_CSharp_intro.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\P230\P230_CSharp_intro\obj\Debug\net6.0\ref\P230_CSharp_intro.dll
