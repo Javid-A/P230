@@ -194,17 +194,17 @@ class Program
         string fullname = "Kamran Zeynalov";
 
         double[] doubleArray = { 10.2, 20.9, 90.7 };
-        foreach (double number in doubleArray)
-        {
-            Console.WriteLine(number);
-        }
-        foreach (char letter in fullname)
-        {
-            if(letter == 'a')
-            {
-                Console.WriteLine("A herfi movcuddur");
-            }
-        }
+        //foreach (double number in doubleArray)
+        //{
+        //    Console.WriteLine(number);
+        //}
+        //foreach (char letter in fullname)
+        //{
+        //    if(letter == 'a')
+        //    {
+        //        Console.WriteLine("A herfi movcuddur");
+        //    }
+        //}
         //for (int i = 0; i < fullname.Length; i++)
         //{
         //    Console.WriteLine(fullname[i]);

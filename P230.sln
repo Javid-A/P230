@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P230_CSharp_intro", "P230_CSharp_intro\P230_CSharp_intro.csproj", "{E8CD7577-8F66-4AB6-B122-61F332715217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{18288B8A-F1C2-486C-BB29-E43805E1A1AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{18288B8A-F1C2-486C-BB29-E43805E1A1AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ref_Out, Mutable and Immutable", "Ref_Out, Mutable and Immutable\Ref_Out, Mutable and Immutable.csproj", "{150A0081-2937-4466-A562-74CECFC2A5A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{18288B8A-F1C2-486C-BB29-E43805E1A1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18288B8A-F1C2-486C-BB29-E43805E1A1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18288B8A-F1C2-486C-BB29-E43805E1A1AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150A0081-2937-4466-A562-74CECFC2A5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150A0081-2937-4466-A562-74CECFC2A5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150A0081-2937-4466-A562-74CECFC2A5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150A0081-2937-4466-A562-74CECFC2A5A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

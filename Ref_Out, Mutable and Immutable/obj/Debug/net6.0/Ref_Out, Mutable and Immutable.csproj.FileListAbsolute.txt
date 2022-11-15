@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\bin\Debug\net6.0\Ref_Out, Mutable and Immutable.exe
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\bin\Debug\net6.0\Ref_Out, Mutable and Immutable.deps.json
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\bin\Debug\net6.0\Ref_Out, Mutable and Immutable.runtimeconfig.json
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\bin\Debug\net6.0\Ref_Out, Mutable and Immutable.dll
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\bin\Debug\net6.0\Ref_Out, Mutable and Immutable.pdb
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\obj\Debug\net6.0\Ref_Out, Mutable and Immutable.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\obj\Debug\net6.0\Ref_Out, Mutable and Immutable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\obj\Debug\net6.0\Ref_Out, Mutable and Immutable.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\obj\Debug\net6.0\Ref_Out, Mutable and Immutable.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\obj\Debug\net6.0\Ref_Out, Mutable and Immutable.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\obj\Debug\net6.0\Ref_Out, Mutable and Immutable.dll
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\obj\Debug\net6.0\refint\Ref_Out, Mutable and Immutable.dll
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\obj\Debug\net6.0\Ref_Out, Mutable and Immutable.pdb
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\obj\Debug\net6.0\Ref_Out, Mutable and Immutable.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\P230\Ref_Out, Mutable and Immutable\obj\Debug\net6.0\ref\Ref_Out, Mutable and Immutable.dll
