@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P230_CSharp_intro", "P230_C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{18288B8A-F1C2-486C-BB29-E43805E1A1AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ref_Out, Mutable and Immutable", "Ref_Out, Mutable and Immutable\Ref_Out, Mutable and Immutable.csproj", "{150A0081-2937-4466-A562-74CECFC2A5A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ref_Out, Mutable and Immutable", "Ref_Out, Mutable and Immutable\Ref_Out, Mutable and Immutable.csproj", "{150A0081-2937-4466-A562-74CECFC2A5A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutable, Immutable, Array and String methods", "Mutable, Immutable, Array and String methods\Mutable, Immutable, Array and String methods.csproj", "{97A8A7FC-72FE-48FA-B9FA-0CAF286AA490}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{150A0081-2937-4466-A562-74CECFC2A5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{150A0081-2937-4466-A562-74CECFC2A5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{150A0081-2937-4466-A562-74CECFC2A5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A8A7FC-72FE-48FA-B9FA-0CAF286AA490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A8A7FC-72FE-48FA-B9FA-0CAF286AA490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A8A7FC-72FE-48FA-B9FA-0CAF286AA490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A8A7FC-72FE-48FA-B9FA-0CAF286AA490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
