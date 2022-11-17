@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\bin\Debug\net6.0\StringBuilder, Class.exe
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\bin\Debug\net6.0\StringBuilder, Class.deps.json
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\bin\Debug\net6.0\StringBuilder, Class.runtimeconfig.json
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\bin\Debug\net6.0\StringBuilder, Class.dll
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\bin\Debug\net6.0\StringBuilder, Class.pdb
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\obj\Debug\net6.0\StringBuilder, Class.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\obj\Debug\net6.0\StringBuilder, Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\obj\Debug\net6.0\StringBuilder, Class.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\obj\Debug\net6.0\StringBuilder, Class.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\obj\Debug\net6.0\StringBuilder, Class.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\obj\Debug\net6.0\StringBuilder, Class.dll
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\obj\Debug\net6.0\refint\StringBuilder, Class.dll
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\obj\Debug\net6.0\StringBuilder, Class.pdb
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\obj\Debug\net6.0\StringBuilder, Class.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\P230\StringBuilder, Class\obj\Debug\net6.0\ref\StringBuilder, Class.dll

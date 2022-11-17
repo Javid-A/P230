@@ -212,9 +212,9 @@
 
 //Console.WriteLine(string.Format("{0:M}",DateTime.Now));
 
-string name = " ";
+//string name = " ";
 
-if (string.IsNullOrWhiteSpace(name))
-{
-    Console.WriteLine("It is whitespace");
-}
+//if (string.IsNullOrWhiteSpace(name))
+//{
+//    Console.WriteLine("It is whitespace");
+//}
