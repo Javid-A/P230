@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\bin\Debug\net6.0\Access modifiers, DLL, Namespace.exe
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\bin\Debug\net6.0\Access modifiers, DLL, Namespace.deps.json
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\bin\Debug\net6.0\Access modifiers, DLL, Namespace.runtimeconfig.json
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\bin\Debug\net6.0\Access modifiers, DLL, Namespace.dll
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\bin\Debug\net6.0\Access modifiers, DLL, Namespace.pdb
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\obj\Debug\net6.0\Access modifiers, DLL, Namespace.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\obj\Debug\net6.0\Access modifiers, DLL, Namespace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\obj\Debug\net6.0\Access modifiers, DLL, Namespace.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\obj\Debug\net6.0\Access modifiers, DLL, Namespace.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\obj\Debug\net6.0\Access modifiers, DLL, Namespace.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\obj\Debug\net6.0\Access modifiers, DLL, Namespace.dll
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\obj\Debug\net6.0\refint\Access modifiers, DLL, Namespace.dll
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\obj\Debug\net6.0\Access modifiers, DLL, Namespace.pdb
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\obj\Debug\net6.0\Access modifiers, DLL, Namespace.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\P230\Access modifiers, DLL, Namespace\obj\Debug\net6.0\ref\Access modifiers, DLL, Namespace.dll
