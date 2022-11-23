@@ -29,11 +29,13 @@ namespace Access_modifiers__DLL__Namespace
 
             //Electronic electronic = new Electronic();
             //Testing test = new Testing();
-            Doctor doctor = new Doctor();
+            //Doctor doctor = new Doctor();
 
-            Utilities.Human human = new Utilities.Human();
+            //Utilities.Human human = new Utilities.Human();
+
+            //Console.WriteLine(stu.Surname);
+
             
-            Console.WriteLine(stu.Surname);
             //Console.WriteLine(stu.nam);
         }
     }

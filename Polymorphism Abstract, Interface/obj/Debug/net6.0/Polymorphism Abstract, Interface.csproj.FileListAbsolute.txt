@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\bin\Debug\net6.0\Polymorphism Abstract, Interface.exe
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\bin\Debug\net6.0\Polymorphism Abstract, Interface.deps.json
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\bin\Debug\net6.0\Polymorphism Abstract, Interface.runtimeconfig.json
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\bin\Debug\net6.0\Polymorphism Abstract, Interface.dll
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\bin\Debug\net6.0\Polymorphism Abstract, Interface.pdb
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\obj\Debug\net6.0\Polymorphism Abstract, Interface.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\obj\Debug\net6.0\Polymorphism Abstract, Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\obj\Debug\net6.0\Polymorphism Abstract, Interface.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\obj\Debug\net6.0\Polymorphism Abstract, Interface.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\obj\Debug\net6.0\Polymorphism Abstract, Interface.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\obj\Debug\net6.0\Polymorphism Abstract, Interface.dll
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\obj\Debug\net6.0\refint\Polymorphism Abstract, Interface.dll
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\obj\Debug\net6.0\Polymorphism Abstract, Interface.pdb
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\obj\Debug\net6.0\Polymorphism Abstract, Interface.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\P230\Polymorphism Abstract, Interface\obj\Debug\net6.0\ref\Polymorphism Abstract, Interface.dll

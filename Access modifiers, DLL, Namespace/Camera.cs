@@ -11,7 +11,6 @@ namespace Access_modifiers__DLL__Namespace
     {
         public string TotalPixels;
         public int FrameRate;
-
         public Camera(string id, string brand, string model, string size, double price, string totalPixels, int frameRate, byte discount = 0):base(id, brand, model, size, price, discount)
         {
             TotalPixels = totalPixels;
