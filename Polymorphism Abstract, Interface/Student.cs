@@ -11,22 +11,7 @@ namespace Polymorphism_Abstract__Interface
         public string GroupNo;
         public string Section;
 
-        public override byte IQ
-        {
-            get
-            {
-                return _iq;
-
-            }
-            set
-            {
-                if (value > 95)
-                {
-                    _iq = value;
-                }
-            }
-
-        }
+      
 
         public override void Breath()
         {
