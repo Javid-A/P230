@@ -49,8 +49,6 @@ string name = "raShiD";
 //Console.WriteLine(name.CustomContains("raShiD"));
 
 
-
-
 //string test = null;
 //string empty = default;
 

@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\bin\Debug\net6.0\Upcasting and Downcasting.exe
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\bin\Debug\net6.0\Upcasting and Downcasting.deps.json
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\bin\Debug\net6.0\Upcasting and Downcasting.runtimeconfig.json
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\bin\Debug\net6.0\Upcasting and Downcasting.dll
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\bin\Debug\net6.0\Upcasting and Downcasting.pdb
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\obj\Debug\net6.0\Upcasting and Downcasting.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\obj\Debug\net6.0\Upcasting and Downcasting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\obj\Debug\net6.0\Upcasting and Downcasting.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\obj\Debug\net6.0\Upcasting and Downcasting.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\obj\Debug\net6.0\Upcasting and Downcasting.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\obj\Debug\net6.0\Upcasting and Downcasting.dll
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\obj\Debug\net6.0\refint\Upcasting and Downcasting.dll
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\obj\Debug\net6.0\Upcasting and Downcasting.pdb
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\obj\Debug\net6.0\Upcasting and Downcasting.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\P230\Upcasting and Downcasting\obj\Debug\net6.0\ref\Upcasting and Downcasting.dll
