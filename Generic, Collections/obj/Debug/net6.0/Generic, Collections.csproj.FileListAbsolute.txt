@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\bin\Debug\net6.0\Generic, Collections.exe
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\bin\Debug\net6.0\Generic, Collections.deps.json
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\bin\Debug\net6.0\Generic, Collections.runtimeconfig.json
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\bin\Debug\net6.0\Generic, Collections.dll
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\bin\Debug\net6.0\Generic, Collections.pdb
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\obj\Debug\net6.0\Generic, Collections.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\obj\Debug\net6.0\Generic, Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\obj\Debug\net6.0\Generic, Collections.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\obj\Debug\net6.0\Generic, Collections.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\obj\Debug\net6.0\Generic, Collections.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\obj\Debug\net6.0\Generic, Collections.dll
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\obj\Debug\net6.0\refint\Generic, Collections.dll
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\obj\Debug\net6.0\Generic, Collections.pdb
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\obj\Debug\net6.0\Generic, Collections.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\P230\Generic, Collections\obj\Debug\net6.0\ref\Generic, Collections.dll

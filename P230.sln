@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism Abstract, Inte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Static, Extension, Nullable, Enum", "Static, Extension, Nullable, Enum\Static, Extension, Nullable, Enum.csproj", "{0DEEA8D1-55D1-4EE3-B9B9-7E7824E5FEDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upcasting and Downcasting", "Upcasting and Downcasting\Upcasting and Downcasting.csproj", "{835A2F4A-719E-43AC-8CEE-596E1D6377AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Upcasting and Downcasting", "Upcasting and Downcasting\Upcasting and Downcasting.csproj", "{835A2F4A-719E-43AC-8CEE-596E1D6377AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic, Collections", "Generic, Collections\Generic, Collections.csproj", "{FE011220-9ABB-4FC3-8125-090A178ACBEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{835A2F4A-719E-43AC-8CEE-596E1D6377AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{835A2F4A-719E-43AC-8CEE-596E1D6377AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{835A2F4A-719E-43AC-8CEE-596E1D6377AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE011220-9ABB-4FC3-8125-090A178ACBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE011220-9ABB-4FC3-8125-090A178ACBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE011220-9ABB-4FC3-8125-090A178ACBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE011220-9ABB-4FC3-8125-090A178ACBEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

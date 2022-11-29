@@ -5,7 +5,14 @@
         static void Main(string[] args)
         {
 
-            int intNum = 123;
+            #region Upcasting & Downcasting
+            //int intNum = 123;
+
+            //double number = 10.5;
+
+            //int numberInt = (int)number;
+
+            //Console.WriteLine(numberInt);
 
             //byte byteNum = (byte)intNum;
             //Console.WriteLine(byteNum);
@@ -26,7 +33,13 @@
             //Animal animal = new LionFish();
 
 
+
+            //Samoyed samoyed1 = new Samoyed();
             //LionFish fish = animal as LionFish;
+
+            //bool result = animal is LionFish;
+
+
 
             //if (fish != null)
             //{
@@ -44,10 +57,9 @@
             //    Console.WriteLine(fish.Poison);
             //}
 
-
-            Samoyed samoyed = new Samoyed();
-            Pitbull pitbull = new Pitbull();
-            samoyed.Fur = "Fury";
+            //Samoyed samoyed = new Samoyed();
+            //Pitbull pitbull = new Pitbull();
+            //samoyed.Fur = "Fury";
             //TreatPitbull(pitbull);
             //TreatSamoyed(samoyed);
 
@@ -58,7 +70,26 @@
             //Console.WriteLine(samoyed.Fur);
             //TreatDogs(pitbull);
             //Dog dog = new Pitbull();
-            TreatDogs(new Husky());
+            //Console.WriteLine(samoyed.Fur);
+            //TreatDogs(samoyed); 
+            #endregion
+
+            //Manat manat = new Manat { AZN = 400 };
+
+
+
+            //Dollar dollar = new Dollar();
+
+            //dollar = manat;
+
+
+
+            //Person person1 = new Person(20);
+            //Person person2 = new Person(30);
+            //Person person3 = new Person(40);
+
+
+            //Console.WriteLine(person1+person2);
         }
 
         static void TreatSamoyed(Samoyed samoyed)
@@ -77,12 +108,75 @@
             Console.WriteLine(dog.GetType());
             if (dog is IShaveable samoyed)
             {
+                IShaveable shaveable = (IShaveable)dog;
                 samoyed.Shave();
             }
 
             //IShaveable shaveable = (IShaveable)dog;// worst version
             //shaveable.Shave();
             Console.WriteLine("Some treating process");
+        }
+    }
+
+
+    class Currency
+    {
+
+    }
+    class Manat
+    {
+        public double AZN { get; set; }
+
+        public static implicit operator Dollar(Manat manat)
+        {
+            return new Dollar { USD = manat.AZN / 2 };
+        }
+
+    }
+
+    class Dollar
+    {
+        public double USD { get; set; }
+
+        
+    }
+
+
+    class Person
+    {
+        public byte Age { get; set; }
+
+        public Person(byte age)
+        {
+            Age = age;
+        }
+
+
+        public static bool operator >(Person p1, Person p2)
+        {
+            return p1.Age > p2.Age;
+        }
+        public static bool operator <(Person p1, Person p2)
+        {
+            return p1.Age < p2.Age;
+        }
+
+        public static bool operator ==(Person p1, Person p2)
+        {
+            return p1.Age == p2.Age;
+        }
+        public static bool operator !=(Person p1, Person p2)
+        {
+            return p1.Age != p2.Age;
+        }
+
+        public static int operator +(Person p1, Person p2)
+        {
+            return p1.Age + p2.Age;
+        }
+        public static int operator -(Person p1, Person p2)
+        {
+            return p1.Age - p2.Age;
         }
     }
 }
