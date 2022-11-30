@@ -28,6 +28,7 @@
             #endregion
 
 
+            #region Generic
             //Worst case
             //Product product = new Product();
             //product.Name = "Redbull";
@@ -64,7 +65,7 @@
             //    Console.WriteLine(item);
             //}
 
-            StudentList list = new StudentList();
+            //StudentList list = new StudentList();
 
 
             //list.SetData(new Student("Albert", "Asadov"));
@@ -101,28 +102,85 @@
             //    Console.WriteLine(item);
             //}
 
-            CustomList<Student, int> perviz = new CustomList<Student, int>();
-            CustomList<Student, int> kamran = new CustomList<Student, int>();
+            //CustomList<Student, int> perviz = new CustomList<Student, int>();
+            //CustomList<Student, int> kamran = new CustomList<Student, int>();
 
-            perviz.SetData(new Student("Parviz", "surname"));
-            perviz.SetData(new Student("Parviz", "Alizade"));
-            perviz.SetData(new Student("Parviz2", "Alizade"));
-            kamran.SetData(new Student("kamran", "Zeynalov"));
-            Console.WriteLine("Parviz's array");
-            foreach (var item in perviz.arr)
-            {
-                Console.WriteLine(item);
-            }
+            //perviz.SetData(new Student("Parviz", "surname"));
+            //perviz.SetData(new Student("Parviz", "Alizade"));
+            //perviz.SetData(new Student("Parviz2", "Alizade"));
+            //kamran.SetData(new Student("kamran", "Zeynalov"));
+            //Console.WriteLine("Parviz's array");
+            //foreach (var item in perviz.arr)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
-            Console.WriteLine("Kamran's array");
-            foreach (var item in kamran.arr)
-            {
-                Console.WriteLine(item);
-            }
-            //ShowDynamicValue(new Student("name","surname"));
+            //Console.WriteLine("Kamran's array");
+            //foreach (var item in kamran.arr)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //ShowDynamicValue(new Student("name","surname")); 
+            #endregion
+
+
+            #region Multidimensional array
+            int[] arr = new int[3] { 1, 2, 3 };
+            //     1      ,            2          ,       3
+            int[,] multiArr = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 123213, 12, 31231, 23, 1 }, { 1, 2, 3, 4, 5 } };
+            
+            int[,,] arr3d = new int[4, 5, 6] {
+                {
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 } 
+                },
+
+                { 
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 } 
+                },
+
+                { 
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 } 
+                },
+
+                { 
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 },
+                    { 1, 2, 3, 4, 5, 6 } 
+                } 
+            };
+
+            //foreach (var item in multiArr)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //Console.WriteLine(multiArr[1,4]);
+
+            //for (int i = 0; i < multiArr.GetLength(0) ; i++)
+            //{
+
+            //}
+            Console.WriteLine(arr3d.GetLength(3));
+
+
+            #endregion
 
         }
-        static T ShowDynamicValue<T>(T value) where T:class
+        static T ShowDynamicValue<T>(T value) where T : class
         {
             Console.WriteLine(value);
             return value;
