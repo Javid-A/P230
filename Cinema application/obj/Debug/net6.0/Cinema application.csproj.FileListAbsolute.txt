@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\P230\Cinema application\bin\Debug\net6.0\Cinema application.exe
+C:\Users\Lenovo\source\repos\P230\Cinema application\bin\Debug\net6.0\Cinema application.deps.json
+C:\Users\Lenovo\source\repos\P230\Cinema application\bin\Debug\net6.0\Cinema application.runtimeconfig.json
+C:\Users\Lenovo\source\repos\P230\Cinema application\bin\Debug\net6.0\Cinema application.dll
+C:\Users\Lenovo\source\repos\P230\Cinema application\bin\Debug\net6.0\Cinema application.pdb
+C:\Users\Lenovo\source\repos\P230\Cinema application\obj\Debug\net6.0\Cinema application.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\P230\Cinema application\obj\Debug\net6.0\Cinema application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\P230\Cinema application\obj\Debug\net6.0\Cinema application.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\P230\Cinema application\obj\Debug\net6.0\Cinema application.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\P230\Cinema application\obj\Debug\net6.0\Cinema application.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\P230\Cinema application\obj\Debug\net6.0\Cinema application.dll
+C:\Users\Lenovo\source\repos\P230\Cinema application\obj\Debug\net6.0\refint\Cinema application.dll
+C:\Users\Lenovo\source\repos\P230\Cinema application\obj\Debug\net6.0\Cinema application.pdb
+C:\Users\Lenovo\source\repos\P230\Cinema application\obj\Debug\net6.0\Cinema application.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\P230\Cinema application\obj\Debug\net6.0\ref\Cinema application.dll

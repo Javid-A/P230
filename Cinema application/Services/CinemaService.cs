@@ -19,7 +19,8 @@ namespace Cinema_application.Services
 
         public bool CreateHall(int row, int column, Categories category)
         {
-            _repository.CreateHall(row, column, category);
+            string hallNo = _repository.CreateHall(row, column, category);
+            Console.WriteLine($"{hallNo} successfully created");
             return true;
         }
         public bool EditHall(string currentHallNo,string newNo)
@@ -33,7 +34,7 @@ namespace Cinema_application.Services
 
             foreach (Hall hall in _repository.Halls)
             {
-                if (hall.No.ToLower() == newNo)
+                if (hall.No.ToUpper() == newNo)
                 {
                     return false;
                 }
@@ -52,6 +53,41 @@ namespace Cinema_application.Services
                 }
             }
             return null;
+        }
+
+        public void GetHalls()
+        {
+            _repository.GetHalls();
+        }
+
+        public bool GetSeats(string hallNo)
+        {
+            Hall hall = FindHall(hallNo);
+            if(hall == null)
+            {
+                return false;
+            }
+
+            _repository.GetSeats(hall);
+            return true;
+        }
+
+        public bool? Reserve(string hallNo, int row, int column)
+        {
+            Hall hall = FindHall(hallNo);
+            if (hall == null) return null;
+
+            if (hall.Seats[row - 1, column - 1].IsFull)
+            {
+                return false; // her iki halda false qayidir errorun sebebi belli olmur
+            }
+            
+            if(row>hall.Seats.GetLength(0) || column > hall.Seats.GetLength(1))
+            {
+                return false;// her iki halda false qayidir errorun sebebi belli olmur
+            }
+
+            return _repository.Reserve(hall, row, column);
         }
     }
 }

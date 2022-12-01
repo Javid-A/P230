@@ -18,5 +18,10 @@ namespace Cinema_application.Entities
             Column = column;
             IsFull = false;
         }
+
+        public override string ToString()
+        {
+            return $"Sira: {Row}, Yer: {Column}, Status: {(IsFull ?"Doludur":"Boshdur")}";
+        }
     }
 }

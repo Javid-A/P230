@@ -37,25 +37,35 @@ namespace Cinema_application.Entities
             {
                 case Categories.Thriller:
                     No = $"T-{++_count}";
+                    Category = category;
                     break;
                 case Categories.Comedy:
                     No = $"C-{++_count}";
+                    Category = category;
                     break;
                 case Categories.SciFi:
                     No = $"SF-{++_count}";
+                    Category = category;
                     break;
                 case Categories.Drama:
                     No = $"D-{++_count}";
+                    Category = category;
                     break;
                 case Categories.Action:
                     No = $"A-{++_count}";
+                    Category = category;
                     break;
                 case Categories.Horror:
                     No = $"H-{++_count}";
+                    Category = category;
                     break;
                 default:
                     break;
             }
+        }
+        public override string ToString()
+        {
+            return $"{No}, {Category}, {Seats.Length}";
         }
     }
 }

@@ -28,7 +28,7 @@ namespace Cinema_application.Repositories
 
         public string EditHallNo(Hall hall, string newNo)
         {
-            hall.No = newNo.ToUpper();
+            hall.No = newNo;
             return hall.No;
         }
 
@@ -57,16 +57,8 @@ namespace Cinema_application.Repositories
 
         public bool Reserve(Hall hall, int row, int column)
         {
-            if (!hall.Seats[row-1, column-1].IsFull)
-            {
-                hall.Seats[row - 1, column - 1].IsFull = true;
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-           
+            hall.Seats[row - 1, column - 1].IsFull = true;
+            return true;
         }
     }
 }
