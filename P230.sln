@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Upcasting and Downcasting",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic, Collections", "Generic, Collections\Generic, Collections.csproj", "{FE011220-9ABB-4FC3-8125-090A178ACBEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema application", "Cinema application\Cinema application.csproj", "{2748C441-336A-4D6C-9EE4-C61E3358FE9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema application", "Cinema application\Cinema application.csproj", "{2748C441-336A-4D6C-9EE4-C61E3358FE9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections, Delegate", "Collections, Delegate\Collections, Delegate.csproj", "{AE43A6BA-CAAC-4BEA-87E8-2E086EC27FC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{2748C441-336A-4D6C-9EE4-C61E3358FE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2748C441-336A-4D6C-9EE4-C61E3358FE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2748C441-336A-4D6C-9EE4-C61E3358FE9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE43A6BA-CAAC-4BEA-87E8-2E086EC27FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE43A6BA-CAAC-4BEA-87E8-2E086EC27FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE43A6BA-CAAC-4BEA-87E8-2E086EC27FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE43A6BA-CAAC-4BEA-87E8-2E086EC27FC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
