@@ -4,7 +4,7 @@ namespace Collections__Delegate
 {
     //public delegate void Divide(int num, int num2);
     public delegate bool Divide(int num, int num2);
-
+    public delegate void AbbreviationDel(string name, string surname);
     internal class Program
     {
         static void Main(string[] args)
@@ -96,6 +96,18 @@ namespace Collections__Delegate
 
             //Console.WriteLine(stack.Pop());
             //Console.WriteLine(stack.Peek()); 
+
+            //List<int> list = new List<int>();
+            //list.Add(6);
+            //list.Add(7);
+            //list.Add(5);
+            //list.Add(8);
+            //IEnumerable<int> taken = list.OrderByDescending(x=>x).Skip(2).Take(2);
+
+            //foreach (int item in taken)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
 
             //for (int i = 1; i <= 100; i++)
@@ -120,10 +132,80 @@ namespace Collections__Delegate
             //    }
             //}
             //DivideByNumber(7,4);
-            NumberIssues(Dividable);
-            Console.WriteLine("Is Greater");
-            NumberIssues(IsGreater,70);
+            //NumberIssues(Dividable);
+            //Console.WriteLine("Is Greater");
+            //NumberIssues(IsGreater,70);
+
+
+            //AbbreviationDel del = new AbbreviationDel(Abbreviation);
+            //AbbreviationDel del2 = new AbbreviationDel(WriteConsole);
+            //Console.WriteLine(del("Javid", "Asadullayev"));
+            //del += del2;
+            //del -= del2;
+            //del.Invoke("Javid", "Asadullayev");
+            //del += delegate (string word1, string word2)
+            //{
+            //    Console.WriteLine("Anonymous");
+            //};
+
+            //del.Invoke("Javid", "Asadullayev");
+            //del2("Javid", "Asadullayev");
+            //() =>
+            //{
+                //Lambda expression
+            //}
+            //Sum()
+            //{
+            //
+            //}
+
+
+            Action action = new Action(() =>
+            {
+                Console.WriteLine("Action delegate");
+            });
+            Action action2 = new Action(delegate ()
+            {
+                Console.WriteLine("Anonymous");
+            });
+
+            Action action3 = new Action(ActionMethod);
+
+            //action3 += ActionMethod;
+            //action3();
+
+            //Action<int, string, char> actionParameters = new Action<int, string, char>((intNumber,stringWord,charCharacter) =>
+            //{
+            //    Console.WriteLine(intNumber);
+            //    Console.WriteLine(stringWord);
+            //    Console.WriteLine(charCharacter);
+            //});
+            //actionParameters(5,"El cekin",'e');
+            //Action<int> action4 = new Action<int>(num =>
+            //{
+            //    Console.WriteLine(num);
+            //});
+            //action4(5);
+
+            //Func<int,string> func = new ((num) =>
+            //{
+            //    return num.ToString();
+            //});
+
+            //Func<string, char> func2 = (word) =>
+            //{
+            //    return word[0];
+            //};
+
+            //Predicate<int> isGreater = (num) => num > 10;
+            //Console.WriteLine(isGreater(5)) ;
         }
+
+        static void ActionMethod()
+        {
+            Console.WriteLine("Method");
+        }
+
         static void DivideByNumber(int num,int result = 0)
         {
             for (int i = 1; i <= 100; i++)
@@ -153,6 +235,15 @@ namespace Collections__Delegate
         static bool IsGreater(int num,int greater)
         {
             return num > greater;
+        }
+
+        static void Abbreviation(string name, string surname)
+        {
+            Console.WriteLine($"{name}.{char.ToUpper(surname[0])}");
+        }
+        static void WriteConsole(string word1, string word2)
+        {
+            Console.WriteLine($"{word1} {word2}");
         }
     }
     class Test

@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\bin\Debug\net6.0\Exceptions Reflection Stream.exe
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\bin\Debug\net6.0\Exceptions Reflection Stream.deps.json
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\bin\Debug\net6.0\Exceptions Reflection Stream.runtimeconfig.json
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\bin\Debug\net6.0\Exceptions Reflection Stream.dll
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\bin\Debug\net6.0\Exceptions Reflection Stream.pdb
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\obj\Debug\net6.0\Exceptions Reflection Stream.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\obj\Debug\net6.0\Exceptions Reflection Stream.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\obj\Debug\net6.0\Exceptions Reflection Stream.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\obj\Debug\net6.0\Exceptions Reflection Stream.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\obj\Debug\net6.0\Exceptions Reflection Stream.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\obj\Debug\net6.0\Exceptions Reflection Stream.dll
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\obj\Debug\net6.0\refint\Exceptions Reflection Stream.dll
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\obj\Debug\net6.0\Exceptions Reflection Stream.pdb
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\obj\Debug\net6.0\Exceptions Reflection Stream.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\P230\Exceptions Reflection Stream\obj\Debug\net6.0\ref\Exceptions Reflection Stream.dll
