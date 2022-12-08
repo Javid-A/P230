@@ -1,0 +1,17 @@
+C:\Users\Lenovo\source\repos\P230\Download\bin\Debug\net6.0-windows\Download.exe
+C:\Users\Lenovo\source\repos\P230\Download\bin\Debug\net6.0-windows\Download.deps.json
+C:\Users\Lenovo\source\repos\P230\Download\bin\Debug\net6.0-windows\Download.runtimeconfig.json
+C:\Users\Lenovo\source\repos\P230\Download\bin\Debug\net6.0-windows\Download.dll
+C:\Users\Lenovo\source\repos\P230\Download\bin\Debug\net6.0-windows\Download.pdb
+C:\Users\Lenovo\source\repos\P230\Download\obj\Debug\net6.0-windows\Download.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\P230\Download\obj\Debug\net6.0-windows\Download.Form1.resources
+C:\Users\Lenovo\source\repos\P230\Download\obj\Debug\net6.0-windows\Download.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\P230\Download\obj\Debug\net6.0-windows\Download.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\P230\Download\obj\Debug\net6.0-windows\Download.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\P230\Download\obj\Debug\net6.0-windows\Download.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\P230\Download\obj\Debug\net6.0-windows\Download.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\P230\Download\obj\Debug\net6.0-windows\Download.dll
+C:\Users\Lenovo\source\repos\P230\Download\obj\Debug\net6.0-windows\refint\Download.dll
+C:\Users\Lenovo\source\repos\P230\Download\obj\Debug\net6.0-windows\Download.pdb
+C:\Users\Lenovo\source\repos\P230\Download\obj\Debug\net6.0-windows\Download.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\P230\Download\obj\Debug\net6.0-windows\ref\Download.dll
