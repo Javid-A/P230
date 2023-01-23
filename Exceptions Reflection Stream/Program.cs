@@ -203,92 +203,115 @@ namespace Exceptions_Reflection_Stream
             //} 
             #endregion
 
+            #region Task and Thread
+            ////Thread thread = new Thread(Write0);
+            ////Thread thread1 = new Thread(Write1);
 
+            ////thread.Start();
+            ////thread1.Start();
 
+            ////Task task = Task.Run(() =>
+            ////{
+            ////    for (int i = 0; i < 10000; i++)
+            ////    {
+            ////        Console.WriteLine(i);
+            ////    }
+            ////});
+            ////Console.Read();
+            ////Boiling();
+            ////Cooking();
+            ////Cleaning();
 
-            //Thread thread = new Thread(Write0);
-            //Thread thread1 = new Thread(Write1);
+            ////Task task = Task.WhenAll(Boiling(), Cooking(), Cleaning());
 
-            //thread.Start();
-            //thread1.Start();
+            ////task.ContinueWith(t =>
+            ////{
+            ////    Console.WriteLine("Start eating");
 
-            //Task task = Task.Run(() =>
-            //{
-            //    for (int i = 0; i < 10000; i++)
-            //    {
-            //        Console.WriteLine(i);
-            //    }
-            //});
-            //Console.Read();
-            //Boiling();
-            //Cooking();
-            //Cleaning();
+            ////});
 
-            //Task task = Task.WhenAll(Boiling(), Cooking(), Cleaning());
+            ////await Cooking();
+            ////await Cleaning();
+            ////await Boiling();
 
-            //task.ContinueWith(t =>
-            //{
-            //    Console.WriteLine("Start eating");
+            ////Console.WriteLine("Start eat");
+            ////Console.ReadLine();
+            ////HttpClient client = new HttpClient();
+            ////string sourceCode = await client.GetStringAsync("https://www.google.com");
 
-            //});
+            //Console.WriteLine("Test"); 
+            #endregion
 
-            //await Cooking();
-            //await Cleaning();
-            //await Boiling();
+            List<object> list = new List<object>();
+            List<string> strList = new List<string>();
+            strList.Add("1");
+            strList.Add("2");
+            strList.Add("3");
 
-            //Console.WriteLine("Start eat");
-            //Console.ReadLine();
-            HttpClient client = new HttpClient();
-            string sourceCode = await client.GetStringAsync("https://www.google.com");
-            
-            Console.WriteLine("Test");
+            //List<int> intList = new List<int>();
+            //intList.Add(1);
+            //intList.Add(2);
+            //intList.Add(3);
+            //List<Group> groupList = new List<Group>();
+            //List<Test> structList = new List<Test>();
+            //groupList.Add(new Group());
+            //groupList.Add(new Group());
+            //groupList.Add(new Group());
+            //list.AddRange(strList);
+            //list.AddRange(intList);
+            //list.AddRange(structList);
 
+            Country<City> country = new Country<City>();
+            country.Add(new City("Baku", 3000000));
+            country.Add(new City("Sumgait", 600000));
+
+            Console.WriteLine(country.TotalPopulation);
         }
 
-        static async Task<string> Boiling()
-        {
-            string task = await Task.Run(() =>
-            {
-                Console.WriteLine("Start boiling");
-                Thread.Sleep(10000);
-                Console.WriteLine("Boiling end");
-                return "Done";
-            });
-            string tea = await Task.Run(() =>
-            {
-                Console.WriteLine("Start tea");
-                Thread.Sleep(4000);
-                Console.WriteLine("Tea end");
-                return "Done";
-            });
-            return "Boiling and Tea end";
-        }
+        //static async Task<string> Boiling()
+        //{
+        //    string task = await Task.Run(() =>
+        //    {
+        //        Console.WriteLine("Start boiling");
+        //        Thread.Sleep(10000);
+        //        Console.WriteLine("Boiling end");
+        //        return "Done";
+        //    });
+        //    string tea = await Task.Run(() =>
+        //    {
+        //        Console.WriteLine("Start tea");
+        //        Thread.Sleep(4000);
+        //        Console.WriteLine("Tea end");
+        //        return "Done";
+        //    });
+        //    return "Boiling and Tea end";
+        //}
 
-        static async Task<string> Cleaning()
-        {
-            string task = await Task.Run(() =>
-            {
-                Console.WriteLine("Start cleaning");
-                Thread.Sleep(2000);
-                Console.WriteLine("Cleaning end");
-                return "Done";
-            });
+        //static async Task<string> Cleaning()
+        //{
+        //    string task = await Task.Run(() =>
+        //    {
+        //        Console.WriteLine("Start cleaning");
+        //        Thread.Sleep(2000);
+        //        Console.WriteLine("Cleaning end");
+        //        return "Done";
+        //    });
 
 
-            return "Cleaning end";
-        }
+        //    return "Cleaning end";
+        //}
 
-        static async Task<string> Cooking()
-        {
-            string task = await Task.Run(() =>
-            {
-                Console.WriteLine("Start cooking");
-                Thread.Sleep(5000);
-                Console.WriteLine("Cooking end");
-                return "Done";
-            });
-            return task;
-        }
+        //static async Task<string> Cooking()
+        //{
+        //    string task = await Task.Run(() =>
+        //    {
+        //        Console.WriteLine("Start cooking");
+        //        Thread.Sleep(5000);
+        //        Console.WriteLine("Cooking end");
+        //        return "Done";
+        //    });
+        //    return task;
+        //}
         //static void Write0()
         //{
         //    for (int i = 1; i <= 10000; i++)
@@ -305,8 +328,16 @@ namespace Exceptions_Reflection_Stream
         //        Console.Write(1);
         //    }
         //}
+
+        
+        
     }
 
+
+    struct Test
+    {
+        public string T;
+    }
     class Group
     {
         public int GroupProp { get; set; }

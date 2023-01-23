@@ -5,8 +5,61 @@ namespace Collections__Delegate
     //public delegate void Divide(int num, int num2);
     public delegate bool Divide(int num, int num2);
     public delegate void AbbreviationDel(string name, string surname);
+
+    public delegate bool TestDelegate(int number1,int number2);
+
+    public delegate int SomeArithmeticProcess(int number1, int number2);
     internal class Program
     {
+        static void Arithmetic(int number1, int number2,SomeArithmeticProcess plus=null, SomeArithmeticProcess minus=null, SomeArithmeticProcess divide=null, SomeArithmeticProcess multiply=null)
+        {
+            if(plus != null)
+            {
+                Console.WriteLine(plus(number1, number2));
+            }
+            if (minus != null)
+            {
+                Console.WriteLine(minus(number1, number2));
+            }
+            if (multiply != null)
+            {
+                Console.WriteLine(multiply(number1, number2));
+            }
+            if (divide != null)
+            {
+                Console.WriteLine(divide(number1, number2));
+            }
+        }
+        static void SomeProcess(int[] arr, TestDelegate method, int number)
+        {
+            foreach (var item in arr)
+            {
+                if (method(item,number))
+                {
+                    Console.WriteLine(item);
+                }
+            }
+        }
+
+
+
+       
+
+        //isEven
+        //isOdd, 7 , 8 , 10 , 19 , 28 , 33
+
+        static bool IsDividable(int number, int divide)
+        {
+            return number % divide == 0;
+        }
+
+        
+
+        static bool IsGreaterThanAnyNumber(int arrNumber,int anyNumber)
+        {
+            return arrNumber > anyNumber;
+        }
+
         static void Main(string[] args)
         {
             #region Classwork
@@ -16,6 +69,30 @@ namespace Collections__Delegate
             //MainPrintFile online = new MainPrintFile(sheet);
             //IPrintable printable = new PDF(); 
             #endregion
+
+            int[] arr = { 1, 6, 10, 20, 33, 47, 99, 105, 200 };
+
+            //SomeProcess(arr, IsGreaterThanAnyNumber, 10);
+            //SomeProcess(arr, IsDividable, 2);
+
+            //SomeProcess(arr, (x,y) => { return x < y;  }, 36);
+            //SomeProcess(arr, delegate (int x,int y) { return x < y;  }, 36);
+
+            Arithmetic(20, 10, plus: (x, y) => { return x * y; });
+
+
+            //TestDelegate test = () =>
+            //{
+            //    Console.WriteLine("Test delegate");
+            //};
+
+            //test += Minus;
+            //test += Test;
+            //test.Invoke();
+
+
+
+
 
             #region Collections
             //ArrayList arrayList = new ArrayList();
@@ -152,7 +229,7 @@ namespace Collections__Delegate
             //del2("Javid", "Asadullayev");
             //() =>
             //{
-                //Lambda expression
+            //Lambda expression
             //}
             //Sum()
             //{
@@ -201,12 +278,29 @@ namespace Collections__Delegate
             //Console.WriteLine(isGreater(5)) ;
         }
 
+        static void Minus()
+        {
+            int total = 20;
+            if (total > 5)
+            {
+                Console.WriteLine(total - 5);
+            }
+        }
+        static void Test()
+        {
+            int total = 20;
+            if (total > 5)
+            {
+                Console.WriteLine(total);
+            }
+        }
+
         static void ActionMethod()
         {
             Console.WriteLine("Method");
         }
 
-        static void DivideByNumber(int num,int result = 0)
+        static void DivideByNumber(int num, int result = 0)
         {
             for (int i = 1; i <= 100; i++)
             {
@@ -216,7 +310,7 @@ namespace Collections__Delegate
                 }
             }
         }
-        static void NumberIssues(Divide divide,int num=2)
+        static void NumberIssues(Divide divide, int num = 2)
         {
             for (int i = 1; i <= 100; i++)
             {
@@ -227,12 +321,12 @@ namespace Collections__Delegate
             }
         }
 
-        static bool Dividable(int num,int divide)//5
+        static bool Dividable(int num, int divide)//5
         {
             return num % divide == 0;
         }
 
-        static bool IsGreater(int num,int greater)
+        static bool IsGreater(int num, int greater)
         {
             return num > greater;
         }
